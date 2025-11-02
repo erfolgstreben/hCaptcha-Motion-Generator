@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows)
 ![Status](https://img.shields.io/badge/status-Development-yellow)
 
-A Python module that generates **realistic, human-like mouse movement and interaction traces**. Built with techniques such as **Bezier curve pathing**, **dynamic timing patterns**, and **micro-corrections**, this project is intended for **legitimate** uses like UX testing, accessibility research, simulation, and defensive study.
+A Python module that generates **realistic, human-like mouse movement and interaction traces**. Built with techniques such as **Bezier curve pathing**, **dynamic timing patterns**, and **micro-corrections**.
 
 > ⚠️ **Ethical & Legal Notice:** This repository is provided **only** for authorized, legitimate, and ethical purposes (UI/UX testing, accessibility research, academic study, and controlled defensive research). **Do not** use this code to attack, evade, or interfere with third-party services. Attempting to use it to bypass anti-bot protections or perform unauthorized testing may violate terms of service and applicable law.
 
@@ -73,4 +73,5 @@ motion = generator._Final(captcha_box, challenge_images=[], selected_images=[])
 
 with open("result.json", "w") as f:
     json.dump(motion, f, indent=2)
+
 ```
